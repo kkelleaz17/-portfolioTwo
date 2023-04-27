@@ -1,0 +1,21 @@
+main{
+    width: calc(100% - 50px);
+    padding-left: 50px; 
+    font-size: 25px;
+    color: var(--NavFont);
+ }
+ 
+ 
+ main p{
+     width: 90%;
+ }
+ @media screen and (max-width: 1200px){
+     main p{
+         width: auto;
+     }
+     main{
+         width: calc(100% - 100px);
+         padding-inline: 50px; 
+      }
+ }
+ 

@@ -1,0 +1,43 @@
+
+
+main{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: calc(100vh - 80px);
+     font-family: 'Roboto', sans-serif;
+}
+
+.container{
+ width: 500px;
+ border-radius: 5px;
+ padding: 20px;
+ background-color: var(--SLIDECOLOR);
+ color: var(--NavFont);
+}
+
+
+input[type=text], select, textarea {
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: #339DFF;
+    font-family: 'Roboto', sans-serif;
+    color: var(--NavFont);
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  
